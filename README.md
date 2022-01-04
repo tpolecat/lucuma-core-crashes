@@ -1,6 +1,6 @@
 # lucuma-core-crashes
 
-These are crashes generated on clean builds of lucuma-core, with
+These are crashes generated on clean builds of lucuma-core, which is cursed, with
 
 ```
 openjdk version "11.0.11" 2021-04-20
@@ -18,7 +18,9 @@ Summary
 
 | Variant | Count | Comments |
 |--------|-------|----------|
-| 1      | 1     | `Bad superClass for class Any: <none>` |
-| 2      | 2     | `Error while emitting ... assertion failed ... type ...` |
-| 3      | 3     | `assertion failed: List(package shapeless, package shapeless)` |
-| 4      | 1     | `an unexpected type representation reached the compiler backend` |
+| 1      | 1     |  |
+| 2      | 2     | Occurs in different places. |
+| 3      | 3     | Seems to be in the same place when it happens. |
+| 4      | 1     |  |
+| 5      | 1     |  |
+

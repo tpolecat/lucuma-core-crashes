@@ -1,0 +1,337 @@
+Removing modules/core/js/target/
+Removing modules/core/jvm/target/
+Removing modules/testkit/.js/
+Removing modules/testkit/.jvm/
+Removing modules/tests/js/target/
+Removing modules/tests/jvm/target/
+Removing project/project/project/
+Removing project/project/target/
+Removing project/target/
+Removing target/
+[info] welcome to sbt 1.6.1 (GraalVM Community Java 11.0.11)
+[info] loading settings for project lucuma-core-build-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project/project
+[info] loading settings for project lucuma-core-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project
+[info] loading settings for project lucuma-core from build.sbt ...
+[info] set current project to lucuma-core (in build file:/Users/rnorris/Scala/lucuma-core/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[info] compiling 235 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/jvm/target/scala-2.13/classes ...
+[info] compiling 234 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/classes ...
+[info] compiling 64 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/testkit/.jvm/target/scala-2.13/classes ...
+java.lang.AssertionError: assertion failed:
+  Case17
+     while compiling: /Users/rnorris/Scala/lucuma-core/modules/core/shared/src/main/scala/lucuma/core/math/units.scala
+        during phase: globalPhase=jvm, enteringPhase=parser
+     library version: version 2.13.7
+    compiler version: version 2.13.7
+  reconstructed args: -bootclasspath /Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar -deprecation -encoding utf8 -explaintypes -feature -unchecked -Wconf:cat=deprecation:w -Wconf:cat=unchecked:w -Wconf:cat=feature:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -Wdead-code -Wvalue-discard -Wnumeric-widen -Wunused:imports -Wunused:patvars -Wunused:privates -Wunused:locals -Wunused:explicits -Wunused:implicits -Wunused:synthetics -Wunused:nowarn -Wextra-implicit -Xlint:adapted-args -Xlint:nullary-unit -Xlint:inaccessible -Xlint:infer-any -Xlint:missing-interpolator -Xlint:doc-detached -Xlint:private-shadow -Xlint:type-parameter-shadow -Xlint:poly-implicit-overload -Xlint:option-implicit -Xlint:delayedinit-select -Xlint:package-object-classes -Xlint:stars-align -Xlint:strict-unsealed-patmat -Xlint:constant -Xlint:deprecation -classpath /Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/classes:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.8.0/scalajs-library_2.13-1.8.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/atto-core_sjs1_2.13/0.9.5/atto-core_sjs1_2.13-0.9.5.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/atto-refined_sjs1_2.13/0.9.5/atto-refined_sjs1_2.13-0.9.5.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_sjs1_2.13/2.7.0/cats-core_sjs1_2.13-2.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_sjs1_2.13/3.1.0/monocle-core_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-macro_sjs1_2.13/3.1.0/monocle-macro_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-state_sjs1_2.13/3.1.0/monocle-state_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/lucuma-jts_sjs1_2.13/0.2.2/lucuma-jts_sjs1_2.13-0.2.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb_sjs1_2.13/0.5.7/coulomb_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-si-units_sjs1_2.13/0.5.7/coulomb-si-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-accepted-units_sjs1_2.13/0.5.7/coulomb-accepted-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-time-units_sjs1_2.13/0.5.7/coulomb-time-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-cats_sjs1_2.13/0.5.7/coulomb-cats_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-refined_sjs1_2.13/0.5.7/coulomb-refined_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-physical-constants_sjs1_2.13/0.5.7/coulomb-physical-constants_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire_sjs1_2.13/0.17.0/spire_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-extras_sjs1_2.13/0.17.0/spire-extras_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/singleton-ops_sjs1_2.13/0.5.2/singleton-ops_sjs1_2.13-0.5.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_sjs1_2.13/0.9.28/refined_sjs1_2.13-0.9.28.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined-cats_sjs1_2.13/0.9.28/refined-cats_sjs1_2.13-0.9.28.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-time_sjs1_2.13/0.5.0/cats-time_sjs1_2.13-0.5.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_sjs1_2.13/0.14.1/circe-core_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-refined_sjs1_2.13/0.14.1/circe-refined_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_sjs1_2.13/2.3.7/shapeless_sjs1_2.13-2.3.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_sjs1_2.13/2.3.0/scala-java-time_sjs1_2.13-2.3.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/gemini-locales_sjs1_2.13/0.7.0/gemini-locales_sjs1_2.13-0.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/lucuma-svgdotjs_sjs1_2.13/0.2.1/lucuma-svgdotjs_sjs1_2.13-0.2.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs1_2.13/2.7.0/cats-kernel_sjs1_2.13-2.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_sjs1_2.13/2.6.1/cats-free_sjs1_2.13-2.6.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-mks-units_sjs1_2.13/0.5.7/coulomb-mks-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-macros_sjs1_2.13/0.17.0/spire-macros_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-platform_sjs1_2.13/0.17.0/spire-platform_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-util_sjs1_2.13/0.17.0/spire-util_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.2.0/scala-collection-compat_sjs1_2.13-2.2.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/algebra_sjs1_2.13/2.0.1/algebra_sjs1_2.13-2.0.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-data_sjs1_2.13/0.17.0/spire-data_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_sjs1_2.13/0.14.1/circe-numbers_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_sjs1_2.13/1.1.1/portable-scala-reflect_sjs1_2.13-1.1.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/scala-java-locales_sjs1_2.13/1.2.0/scala-java-locales_sjs1_2.13-1.2.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/2.0.0/scalajs-dom_sjs1_2.13-2.0.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/cldr-api_sjs1_2.13/2.7.0/cldr-api_sjs1_2.13-2.7.0.jar -language:existentials -language:higherKinds -language:implicitConversions -language:experimental.macros -Xmaxerrs -1 -Xmaxwarns -1 -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.7/0.13.2/kind-projector_2.13.7-0.13.2.jar -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.7/1.8.0/scalajs-compiler_2.13.7-1.8.0.jar -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.7/4.4.30/semanticdb-scalac_2.13.7-4.4.30.jar -Yrangepos -Ymacro-annotations -Vimplicits -Vtype-diffs -P:semanticdb:targetroot:/Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/meta
+
+  last tree to typer: TypeTree(class Long)
+       tree position: line 85 of /Users/rnorris/Scala/lucuma-core/modules/core/shared/src/main/scala/lucuma/core/util/Gid.scala
+            tree tpe: Long
+              symbol: final class Long in package lang
+   symbol definition: final class Long extends Number with Comparable[Long] (a ClassSymbol)
+      symbol package: java.lang
+       symbol owners: class Long
+           call site: method serialized in trait TypeString in package util
+
+== Source file context for tree position ==
+
+    82   }
+    83
+    84   final val fromLong: Prism[Long, A] =
+    85     Prism[Long, A](l => PosLong.from(l).toOption.map(isoPosLong.reverseGet))(a =>
+    86       isoPosLong.get(a).value
+    87     )
+    88
+	at scala.reflect.internal.SymbolTable.throwAssertionError(SymbolTable.scala:171)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1544)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1533)
+	at scala.reflect.internal.Symbols$Symbol.flatOwnerInfo(Symbols.scala:2393)
+	at scala.reflect.internal.Symbols$ClassSymbol.companionModule0(Symbols.scala:3391)
+	at scala.reflect.internal.Symbols$ClassSymbol.companionModule(Symbols.scala:3393)
+	at scala.reflect.internal.Symbols$ModuleClassSymbol.sourceModule(Symbols.scala:3540)
+	at scala.reflect.internal.Symbols.markFlagsCompleted(Symbols.scala:3895)
+	at scala.reflect.internal.Symbols.markFlagsCompleted$(Symbols.scala:3898)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readSymbol(UnPickler.scala:323)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readSymbolRef(UnPickler.scala:645)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readType(UnPickler.scala:412)
+	at scala.reflect.internal.pickling.UnPickler$Scan.$anonfun$readSymbol$11(UnPickler.scala:356)
+	at scala.reflect.internal.pickling.UnPickler$Scan.at(UnPickler.scala:180)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readSymbol(UnPickler.scala:356)
+	at scala.reflect.internal.pickling.UnPickler$Scan.run(UnPickler.scala:93)
+	at scala.reflect.internal.pickling.UnPickler.unpickle(UnPickler.scala:44)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.unpickleOrParseInnerClasses(ClassfileParser.scala:1221)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parseClass(ClassfileParser.scala:489)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$2(ClassfileParser.scala:174)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$1(ClassfileParser.scala:159)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parse(ClassfileParser.scala:142)
+	at scala.tools.nsc.symtab.SymbolLoaders$ClassfileLoader.doComplete(SymbolLoaders.scala:342)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.$anonfun$complete$2(SymbolLoaders.scala:249)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.complete(SymbolLoaders.scala:247)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.load(SymbolLoaders.scala:268)
+	at scala.reflect.internal.Symbols$Symbol.$anonfun$typeParams$1(Symbols.scala:1800)
+	at scala.reflect.internal.Symbols$Symbol.completeTypeParams$1(Symbols.scala:1800)
+	at scala.reflect.internal.Symbols$Symbol.typeParams(Symbols.scala:1807)
+	at scala.reflect.internal.Types$NoArgsTypeRef.typeParams(Types.scala:2160)
+	at scala.reflect.internal.Types$NoArgsTypeRef.isHigherKinded(Types.scala:2159)
+	at scala.reflect.internal.transform.UnCurry.scala$reflect$internal$transform$UnCurry$$expandAlias(UnCurry.scala:46)
+	at scala.reflect.internal.transform.UnCurry$$anon$1.apply(UnCurry.scala:51)
+	at scala.reflect.internal.transform.UnCurry$$anon$1.apply(UnCurry.scala:48)
+	at scala.reflect.internal.transform.UnCurry$$anon$3.apply(UnCurry.scala:94)
+	at scala.reflect.internal.transform.UnCurry.transformInfo(UnCurry.scala:166)
+	at scala.reflect.internal.transform.UnCurry.transformInfo$(UnCurry.scala:165)
+	at scala.tools.nsc.transform.UnCurry.transformInfo(UnCurry.scala:60)
+	at scala.tools.nsc.transform.InfoTransform$Phase$$anon$1.transform(InfoTransform.scala:52)
+	at scala.reflect.internal.Symbols$Symbol.transformInfos(Symbols.scala:1682)
+	at scala.reflect.internal.Symbols$Symbol.rawInfo(Symbols.scala:1665)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1540)
+	at scala.reflect.internal.Symbols$Symbol.isDerivedValueClass(Symbols.scala:825)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:150)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:142)
+	at scala.reflect.internal.transform.Erasure$ErasureMap.apply(Erasure.scala:164)
+	at scala.reflect.internal.transform.Erasure.specialErasure(Erasure.scala:266)
+	at scala.reflect.internal.transform.Erasure.specialErasure$(Erasure.scala:260)
+	at scala.tools.nsc.transform.Erasure.specialErasure(Erasure.scala:23)
+	at scala.reflect.internal.transform.Erasure.transformInfo(Erasure.scala:684)
+	at scala.reflect.internal.transform.Erasure.transformInfo$(Erasure.scala:645)
+	at scala.tools.nsc.transform.Erasure.transformInfo(Erasure.scala:23)
+	at scala.tools.nsc.transform.InfoTransform$Phase$$anon$1.transform(InfoTransform.scala:52)
+	at scala.reflect.internal.Symbols$Symbol.transformInfos(Symbols.scala:1682)
+	at scala.reflect.internal.Symbols$Symbol.rawInfo(Symbols.scala:1665)
+	at scala.reflect.internal.Symbols$Symbol.completeTypeParams$1(Symbols.scala:1804)
+	at scala.reflect.internal.Symbols$Symbol.typeParams(Symbols.scala:1807)
+	at scala.reflect.internal.Importers$StandardImporter.recreatedSymbolCompleter(Importers.scala:84)
+	at scala.reflect.internal.Importers$StandardImporter.recreateSymbol(Importers.scala:151)
+	at scala.reflect.internal.Importers$StandardImporter.cachedRecreateSymbol$1(Importers.scala:158)
+	at scala.reflect.internal.Importers$StandardImporter.$anonfun$importSymbol$6(Importers.scala:207)
+	at scala.reflect.internal.Symbols$Symbol.orElse(Symbols.scala:2646)
+	at scala.reflect.internal.Importers$StandardImporter.recreateOrRelink$1(Importers.scala:206)
+	at scala.reflect.internal.Importers$StandardImporter.importSymbol(Importers.scala:223)
+	at scala.reflect.internal.Importers$StandardImporter.$anonfun$recreateType$5(Importers.scala:261)
+	at scala.reflect.internal.Scopes$Scope.foreach(Scopes.scala:455)
+	at scala.reflect.internal.Importers$StandardImporter.recreateType(Importers.scala:261)
+	at scala.reflect.internal.Importers$StandardImporter.importType(Importers.scala:298)
+	at scala.reflect.internal.Importers$StandardImporter$$anon$3.complete(Importers.scala:91)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1570)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1533)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$11.scala$reflect$runtime$SynchronizedSymbols$SynchronizedSymbol$$super$info(SynchronizedSymbols.scala:215)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info(SynchronizedSymbols.scala:158)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info$(SynchronizedSymbols.scala:158)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$11.info(SynchronizedSymbols.scala:215)
+	at scala.reflect.internal.Importers$StandardImporter.recreateOrRelink$1(Importers.scala:180)
+	at scala.reflect.internal.Importers$StandardImporter.importSymbol(Importers.scala:223)
+	at scala.reflect.internal.Importers$StandardImporter.recreateType(Importers.scala:241)
+	at scala.reflect.internal.Importers$StandardImporter.importType(Importers.scala:298)
+	at scala.reflect.internal.Importers$StandardImporter.recreateType(Importers.scala:237)
+	at scala.reflect.internal.Importers$StandardImporter.importType(Importers.scala:298)
+	at scala.reflect.internal.Importers$StandardImporter.recreatedTreeCompleter(Importers.scala:316)
+	at scala.reflect.internal.Importers$StandardImporter.$anonfun$importTree$1(Importers.scala:432)
+	at scala.reflect.internal.Importers$StandardImporter.tryFixup(Importers.scala:61)
+	at scala.reflect.internal.Importers$StandardImporter.importTree(Importers.scala:433)
+	at scala.reflect.internal.Importers$StandardImporter.$anonfun$recreateTree$17(Importers.scala:381)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.reflect.internal.Importers$StandardImporter.recreateTree(Importers.scala:381)
+	at scala.reflect.internal.Importers$StandardImporter.importTree(Importers.scala:430)
+	at scala.reflect.internal.Importers$StandardImporter.recreateTree(Importers.scala:384)
+	at scala.reflect.internal.Importers$StandardImporter.importTree(Importers.scala:430)
+	at scala.reflect.internal.Importers$StandardImporter.importTree(Importers.scala:41)
+	at scala.reflect.macros.contexts.Evals.eval(Evals.scala:31)
+	at scala.reflect.macros.contexts.Evals.eval$(Evals.scala:26)
+	at scala.reflect.macros.contexts.Context.eval(Context.scala:18)
+	at eu.timepit.refined.macros.MacroUtils.$anonfun$eval$1(MacroUtils.scala:22)
+	at scala.util.Try$.apply(Try.scala:210)
+	at eu.timepit.refined.macros.MacroUtils.$anonfun$tryN$1(MacroUtils.scala:26)
+	at scala.collection.Iterator$$anon$22.next(Iterator.scala:1016)
+	at scala.collection.IterableOnceOps.collectFirst(IterableOnce.scala:1079)
+	at scala.collection.IterableOnceOps.collectFirst$(IterableOnce.scala:1071)
+	at scala.collection.AbstractIterator.collectFirst(Iterator.scala:1296)
+	at eu.timepit.refined.macros.MacroUtils.tryN(MacroUtils.scala:26)
+	at eu.timepit.refined.macros.MacroUtils.tryN$(MacroUtils.scala:25)
+	at eu.timepit.refined.macros.RefineMacro.tryN(RefineMacro.scala:10)
+	at eu.timepit.refined.macros.MacroUtils.eval(MacroUtils.scala:22)
+	at eu.timepit.refined.macros.MacroUtils.eval$(MacroUtils.scala:15)
+	at eu.timepit.refined.macros.RefineMacro.eval(RefineMacro.scala:10)
+	at eu.timepit.refined.macros.RefineMacro.$anonfun$validateInstance$2(RefineMacro.scala:53)
+	at scala.Option.getOrElse(Option.scala:201)
+	at eu.timepit.refined.macros.RefineMacro.validateInstance(RefineMacro.scala:53)
+	at eu.timepit.refined.macros.RefineMacro.impl(RefineMacro.scala:25)
+	at eu.timepit.refined.macros.RefineMacro.implApplyRef(RefineMacro.scala:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$5(JavaReflectionRuntimes.scala:45)
+	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:770)
+	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime$(Macros.scala:746)
+	at scala.tools.nsc.Global$$anon$5.macroExpandWithRuntime(Global.scala:489)
+	at scala.tools.nsc.typechecker.Macros$MacroExpander.$anonfun$expand$1(Macros.scala:576)
+	at scala.tools.nsc.Global.withInfoLevel(Global.scala:233)
+	at scala.tools.nsc.typechecker.Macros$MacroExpander.expand(Macros.scala:569)
+	at scala.tools.nsc.typechecker.Macros$MacroExpander.apply(Macros.scala:556)
+	at scala.tools.nsc.typechecker.Macros.standardMacroExpand(Macros.scala:731)
+	at scala.tools.nsc.typechecker.Macros.standardMacroExpand$(Macros.scala:729)
+	at scala.tools.nsc.Global$$anon$5.standardMacroExpand(Global.scala:489)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$11.default(AnalyzerPlugins.scala:473)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins$$anon$11.default(AnalyzerPlugins.scala:470)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.invoke(AnalyzerPlugins.scala:427)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand(AnalyzerPlugins.scala:470)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsMacroExpand$(AnalyzerPlugins.scala:470)
+	at scala.tools.nsc.Global$$anon$5.pluginsMacroExpand(Global.scala:489)
+	at scala.tools.nsc.typechecker.Macros.macroExpand(Macros.scala:720)
+	at scala.tools.nsc.typechecker.Macros.macroExpand$(Macros.scala:713)
+	at scala.tools.nsc.Global$$anon$5.macroExpand(Global.scala:489)
+	at scala.tools.nsc.typechecker.Typers$Typer.vanillaAdapt$1(Typers.scala:1209)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1278)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6056)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$2(Typers.scala:827)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:824)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:488)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1274)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6056)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDefImpl(Typers.scala:6318)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDef(Typers.scala:2111)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5949)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2064)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1895)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5951)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.run(Analyzer.scala:106)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1524)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1508)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1500)
+	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1613)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)
+	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
+	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
+	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
+	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
+	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
+	at sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2366)
+	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2316)
+	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2314)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[error] Error while emitting Access.scala
+[error] assertion failed: Bad superClass for class Any: <none>
+[error] error while loading Cases, class file '/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_sjs1_2.13/2.3.7/shapeless_sjs1_2.13-2.3.7.jar(shapeless/Cases.class)' is broken
+[error] (class java.lang.RuntimeException/error reading Scala signature of Cases.class: assertion failed:
+[error]   Case17
+[error]      while compiling: /Users/rnorris/Scala/lucuma-core/modules/core/shared/src/main/scala/lucuma/core/math/units.scala
+[error]         during phase: globalPhase=jvm, enteringPhase=parser
+[error]      library version: version 2.13.7
+[error]     compiler version: version 2.13.7
+[error]   reconstructed args: -bootclasspath /Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar -deprecation -encoding utf8 -explaintypes -feature -unchecked -Wconf:cat=deprecation:w -Wconf:cat=unchecked:w -Wconf:cat=feature:w -Wconf:cat=deprecation:ws -Wconf:cat=feature:ws -Wconf:cat=optimizer:ws -Wdead-code -Wvalue-discard -Wnumeric-widen -Wunused:imports -Wunused:patvars -Wunused:privates -Wunused:locals -Wunused:explicits -Wunused:implicits -Wunused:synthetics -Wunused:nowarn -Wextra-implicit -Xlint:adapted-args -Xlint:nullary-unit -Xlint:inaccessible -Xlint:infer-any -Xlint:missing-interpolator -Xlint:doc-detached -Xlint:private-shadow -Xlint:type-parameter-shadow -Xlint:poly-implicit-overload -Xlint:option-implicit -Xlint:delayedinit-select -Xlint:package-object-classes -Xlint:stars-align -Xlint:strict-unsealed-patmat -Xlint:constant -Xlint:deprecation -classpath /Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/classes:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.8.0/scalajs-library_2.13-1.8.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/atto-core_sjs1_2.13/0.9.5/atto-core_sjs1_2.13-0.9.5.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/atto-refined_sjs1_2.13/0.9.5/atto-refined_sjs1_2.13-0.9.5.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_sjs1_2.13/2.7.0/cats-core_sjs1_2.13-2.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-core_sjs1_2.13/3.1.0/monocle-core_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-macro_sjs1_2.13/3.1.0/monocle-macro_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dev/optics/monocle-state_sjs1_2.13/3.1.0/monocle-state_sjs1_2.13-3.1.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/lucuma-jts_sjs1_2.13/0.2.2/lucuma-jts_sjs1_2.13-0.2.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb_sjs1_2.13/0.5.7/coulomb_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-si-units_sjs1_2.13/0.5.7/coulomb-si-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-accepted-units_sjs1_2.13/0.5.7/coulomb-accepted-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-time-units_sjs1_2.13/0.5.7/coulomb-time-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-cats_sjs1_2.13/0.5.7/coulomb-cats_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-refined_sjs1_2.13/0.5.7/coulomb-refined_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-physical-constants_sjs1_2.13/0.5.7/coulomb-physical-constants_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire_sjs1_2.13/0.17.0/spire_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-extras_sjs1_2.13/0.17.0/spire-extras_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/singleton-ops_sjs1_2.13/0.5.2/singleton-ops_sjs1_2.13-0.5.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined_sjs1_2.13/0.9.28/refined_sjs1_2.13-0.9.28.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/eu/timepit/refined-cats_sjs1_2.13/0.9.28/refined-cats_sjs1_2.13-0.9.28.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-time_sjs1_2.13/0.5.0/cats-time_sjs1_2.13-0.5.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_sjs1_2.13/0.14.1/circe-core_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-refined_sjs1_2.13/0.14.1/circe-refined_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_sjs1_2.13/2.3.7/shapeless_sjs1_2.13-2.3.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/scala-java-time_sjs1_2.13/2.3.0/scala-java-time_sjs1_2.13-2.3.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/gemini-locales_sjs1_2.13/0.7.0/gemini-locales_sjs1_2.13-0.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/edu/gemini/lucuma-svgdotjs_sjs1_2.13/0.2.1/lucuma-svgdotjs_sjs1_2.13-0.2.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs1_2.13/2.7.0/cats-kernel_sjs1_2.13-2.7.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-free_sjs1_2.13/2.6.1/cats-free_sjs1_2.13-2.6.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/manyangled/coulomb-mks-units_sjs1_2.13/0.5.7/coulomb-mks-units_sjs1_2.13-0.5.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-macros_sjs1_2.13/0.17.0/spire-macros_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-platform_sjs1_2.13/0.17.0/spire-platform_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-util_sjs1_2.13/0.17.0/spire-util_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_sjs1_2.13/2.2.0/scala-collection-compat_sjs1_2.13-2.2.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/algebra_sjs1_2.13/2.0.1/algebra_sjs1_2.13-2.0.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/spire-data_sjs1_2.13/0.17.0/spire-data_sjs1_2.13-0.17.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_sjs1_2.13/0.14.1/circe-numbers_sjs1_2.13-0.14.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_sjs1_2.13/1.1.1/portable-scala-reflect_sjs1_2.13-1.1.1.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/scala-java-locales_sjs1_2.13/1.2.0/scala-java-locales_sjs1_2.13-1.2.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/2.0.0/scalajs-dom_sjs1_2.13-2.0.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olvind/scalablytyped-runtime_sjs1_2.13/2.4.2/scalablytyped-runtime_sjs1_2.13-2.4.2.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/cquiroz/cldr-api_sjs1_2.13/2.7.0/cldr-api_sjs1_2.13-2.7.0.jar -language:existentials -language:higherKinds -language:implicitConversions -language:experimental.macros -Xmaxerrs -1 -Xmaxwarns -1 -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.7/0.13.2/kind-projector_2.13.7-0.13.2.jar -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.7/1.8.0/scalajs-compiler_2.13.7-1.8.0.jar -Xplugin:/Users/rnorris/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.7/4.4.30/semanticdb-scalac_2.13.7-4.4.30.jar -Yrangepos -Ymacro-annotations -Vimplicits -Vtype-diffs -P:semanticdb:targetroot:/Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/meta
+[error]
+[error]   last tree to typer: TypeTree(class Long)
+[error]        tree position: line 85 of /Users/rnorris/Scala/lucuma-core/modules/core/shared/src/main/scala/lucuma/core/util/Gid.scala
+[error]             tree tpe: Long
+[error]               symbol: final class Long in package lang
+[error]    symbol definition: final class Long extends Number with Comparable[Long] (a ClassSymbol)
+[error]       symbol package: java.lang
+[error]        symbol owners: class Long
+[error]            call site: method serialized in trait TypeString in package util
+[error]
+[error] == Source file context for tree position ==
+[error]
+[error]     82   }
+[error]     83
+[error]     84   final val fromLong: Prism[Long, A] =
+[error]     85     Prism[Long, A](l => PosLong.from(l).toOption.map(isoPosLong.reverseGet))(a =>
+[error]     86       isoPosLong.get(a).value
+[error]     87     )
+[error]     88 )
+[error] Error while emitting Access.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access/Guest$;
+[error] Error while emitting Access.scala
+[error] (x$1: Int): T (of class scala.reflect.internal.Types$MethodType)
+[error] Error while emitting Access.scala
+[error] (x$1: Int): T (of class scala.reflect.internal.Types$MethodType)
+[error] Error while emitting Access.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting Access.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting Access.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting Access.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access/Guest$;
+[error] Error while emitting AccessControlException.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting Role.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting Role.scala
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access/Guest$;
+[error] Error while emitting lucuma/core/model/ServiceRole
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting lucuma/core/model/StandardRole$Pi
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting lucuma/core/model/StandardRole$Ngo
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting lucuma/core/model/StandardRole$Staff
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[error] Error while emitting lucuma/core/model/StandardRole$Admin
+[error] assertion failed: ClassBType.info not yet assigned: Llucuma/core/model/Access;
+[warn] an unexpected type representation reached the compiler backend while compiling Access.scala: Class[_]. If possible, please file a bug on https://github.com/scala/bug/issues.
+[warn] an unexpected type representation reached the compiler backend while compiling Access.scala: (x$1: Int): T. If possible, please file a bug on https://github.com/scala/bug/issues.
+[warn] two warnings found
+[error] 17 errors found
+[info] compiling 1 Scala source to /Users/rnorris/Scala/lucuma-core/modules/tests/jvm/target/scala-2.13/classes ...
+[error] (coreJS / Compile / compileIncremental) Compilation failed
+[error] Total time: 72 s (01:12), completed Jan 4, 2022, 11:29:44 AM
+lucuma-core (master)$

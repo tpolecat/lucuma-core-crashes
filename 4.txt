@@ -35,6 +35,61 @@ lucuma-core (master)$
 
 
 
+Removing modules/core/js/target/
+Removing modules/core/jvm/target/
+Removing modules/testkit/.js/
+Removing modules/testkit/.jvm/
+Removing modules/tests/js/target/
+Removing modules/tests/jvm/target/
+Removing project/project/project/
+Removing project/project/target/
+Removing project/target/
+Removing target/
+[info] welcome to sbt 1.6.1 (GraalVM Community Java 11.0.11)
+[info] loading settings for project lucuma-core-build-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project/project
+[info] loading settings for project lucuma-core-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project
+[info] loading settings for project lucuma-core from build.sbt ...
+[info] set current project to lucuma-core (in build file:/Users/rnorris/Scala/lucuma-core/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[info] compiling 235 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/jvm/target/scala-2.13/classes ...
+[info] compiling 234 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/classes ...
+[info] compiling 64 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/testkit/.jvm/target/scala-2.13/classes ...
+[warn] /Users/rnorris/Scala/lucuma-core/modules/core/shared/src/main/scala/lucuma/core/math/skycalc/solver/ConstraintSolver.scala:41:19: an unexpected type representation reached the compiler backend while compiling ConstraintSolver.scala: lucuma.core.math.skycalc.solver.ConstraintSolver.ConstraintSolver$WithStrategies[S,G]. If possible, please file a bug on https://github.com/scala/bug/issues.
+[warn]   protected class WithStrategies[S, G] {
+[warn]                   ^
+[error] Error while emitting ConstraintSolver.scala
+[error] lucuma.core.math.skycalc.solver.ConstraintSolver.ConstraintSolver$WithStrategies[S,G] (of class scala.reflect.internal.Types$NullaryMethodType)
+[warn] one warning found
+[error] one error found
+[info] compiling 1 Scala source to /Users/rnorris/Scala/lucuma-core/modules/tests/jvm/target/scala-2.13/classes ...
+[error] (coreJS / Compile / compileIncremental) Compilation failed
+[error] Total time: 67 s (01:07), completed Jan 4, 2022, 11:38:10 AM
+lucuma-core (master)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

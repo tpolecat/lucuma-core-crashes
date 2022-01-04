@@ -21,6 +21,6 @@ Summary
 | 1      | 1     |  |
 | 2      | 2     | Occurs in different places. |
 | 3      | 3     | Seems to be in the same place when it happens. |
-| 4      | 1     |  |
+| 4      | 2     |  Occurs in different places. |
 | 5      | 1     |  |
 

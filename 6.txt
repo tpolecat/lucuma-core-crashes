@@ -1,0 +1,57 @@
+Removing modules/core/js/target/
+Removing modules/core/jvm/target/
+Removing modules/testkit/.js/
+Removing modules/testkit/.jvm/
+Removing modules/tests/js/target/
+Removing modules/tests/jvm/target/
+Removing project/project/project/
+Removing project/project/target/
+Removing project/target/
+Removing target/
+[info] welcome to sbt 1.6.1 (Azul Systems, Inc. Java 11.0.10)
+[info] loading settings for project lucuma-core-build-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project/project
+[info] loading settings for project lucuma-core-build from plugins.sbt ...
+[info] loading project definition from /Users/rnorris/Scala/lucuma-core/project
+[info] loading settings for project lucuma-core from build.sbt ...
+[info] set current project to lucuma-core (in build file:/Users/rnorris/Scala/lucuma-core/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[info] compiling 235 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/jvm/target/scala-2.13/classes ...
+[info] compiling 234 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/core/js/target/scala-2.13/classes ...
+[info] compiling 64 Scala sources to /Users/rnorris/Scala/lucuma-core/modules/testkit/.jvm/target/scala-2.13/classes ...
+[error] Error while emitting TrackType.scala
+[error] assertion failed: Cannot emit primitive conversion from Ljava/lang/String; to Llucuma/core/enum/TrackType; - TrackType.scala
+[error] one error found
+[info] compiling 1 Scala source to /Users/rnorris/Scala/lucuma-core/modules/tests/jvm/target/scala-2.13/classes ...
+[error] (coreJS / Compile / compileIncremental) Compilation failed
+[error] Total time: 74 s (01:14), completed Jan 4, 2022, 12:06:25 PM
+lucuma-core (master)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

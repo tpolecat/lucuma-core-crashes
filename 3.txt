@@ -276,3 +276,6 @@ Removing target/
 [error] (coreJS / Compile / compileIncremental) Compilation failed
 [error] Total time: 29 s, completed Jan 4, 2022, 11:09:21 AM
 lucuma-core (master)$
+
+
+[2 identical recurrences]

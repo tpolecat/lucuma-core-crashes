@@ -110,3 +110,5 @@ Removing target/
 [error] Total time: 75 s (01:15), completed Jan 4, 2022, 11:24:57 AM
 lucuma-core (master)$
 
+
+

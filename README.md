@@ -49,3 +49,12 @@ OpenJDK 64-Bit Server VM AdoptOpenJDK-11.0.11+9 (build 11.0.11+9, mixed mode)
 | 4      | 1     |
 
 Ok I'm giving up on JVMs, it doens't seem to matter.
+
+Now trying with 2.13.6
+
+Nope, immediate crash.
+
+How about 2.13.5?
+
+`scalcOptions := Nil` doesn't fix things either. Blech.
+

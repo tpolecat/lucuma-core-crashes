@@ -14,3 +14,11 @@ via
 while (printf "\033c"; git clean -xdf; sbt compile); do :; done
 ```
 
+Summary
+
+| Variant | Count | Comments |
+|--------|-------|----------|
+| 1      | 1     | `Bad superClass for class Any: <none>` |
+| 2      | 2     | `Error while emitting ... assertion failed ... type ...` |
+| 3      | 3     | `assertion failed: List(package shapeless, package shapeless)` |
+| 4      | 1     | `an unexpected type representation reached the compiler backend` |

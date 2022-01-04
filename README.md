@@ -1,6 +1,8 @@
 # lucuma-core-crashes
 
-These are crashes generated on clean builds of lucuma-core, which is haunted.
+> **UPDATE** resolved by disabling parallel complation, I hope https://github.com/gemini-hlsw/lucuma-core/pull/449
+
+These are crashes generated on clean builds of lucuma-core at commit 30f412795195b54a3966917b2f28160ddd21e760
 
 ```bash
 while (printf "\033c"; git clean -xdf; sbt compile); do :; done
